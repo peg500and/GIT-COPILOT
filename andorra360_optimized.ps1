@@ -199,7 +199,8 @@ function Test-Prerequisites {
     # Ollama
     try {
         $ollamaOutput = ollama list 2>&1 | Out-String
-        if ($LASTEXITCODE -eq 0) {
+        $ollamaExitCode = $LASTEXITCODE
+        if ($null -ne $ollamaExitCode -and $ollamaExitCode -eq 0) {
             $Global:Config.Cache.OllamaAvailable = $true
             Write-ColorOutput "Ollama détecté et fonctionnel" "Success"
 
