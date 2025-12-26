@@ -1,0 +1,24 @@
+Ce projet A360 évolue pour devenir une sentinelle globale sur l'actualité andorrane. 
+L'enjeu n'est plus seulement technique (gestion des flux), mais stratégique (priorisation de l'information).
+
+L'objectif est de créer un agent capable de traiter tout type d'information (presse locale, bulletins officiels, réseaux sociaux, météo, économie) concernant l'Andorre, de les classer par thématiques et d'en extraire l'essentiel en temps réel.
+
+Voici la conversion de votre premier projet. En passant d'une thématique ciblée ("Déchets") à une thématique généraliste ("Informations en Andorre"), l'agent devient un véritable cerveau numérique territorial, capable de trier l'actualité politique, économique et sociale de la Principauté.
+
+Le projet devient Andorra 360, un agent de veille global qui collecte les flux RSS andorrans, les classe par thématique, les analyse via IA locale (Gemma/Phi‑4) et génère des rapports structurés.
+Il couvre toute l’actualité de la Principauté (politique, économie, société, environnement, international), détecte les tendances, évalue l’importance des informations et envoie des alertes.
+L’architecture inclut : configuration YAML, base SQLite, rapports Markdown/JSON, dashboard HTML, notifications Windows/Email, et planification automatique.
+Objectif : une sentinelle territoriale complète, rapide, locale et fiable.
+
+⭐ Avantages clés d'A360 :
+Couverture ~90% de l’actualité andorrane
+
+Analyse multilingue (catalan, français, espagnol)
+
+Détection de tendances (logement, fiscalité…)
+
+Alerte immédiate sur les sujets critiques
+
+100% local, aucune donnée externe
+
+Architecture robuste, modulaire et extensible
